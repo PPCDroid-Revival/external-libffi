@@ -36,6 +36,7 @@ ifneq ($(TARGET_ARCH),arm)
        include $(LOCAL_PATH)/Libffi.mk
 
        LOCAL_MODULE := libffi
+       LOCAL_MODULE_TAGS := optional
 
        include $(BUILD_SHARED_LIBRARY)
 
